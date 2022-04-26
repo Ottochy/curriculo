@@ -1,0 +1,41 @@
+.banner{
+    background-image: url("FUNDO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-light .navbar-brand {
+    color: #FFEBD2;
+    font-size: 50px;
+    
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #FFEBD2;
+    padding-left: 20px;
+}
+
+.ConteudoParagrafo{
+    display: grid;
+    grid-template-areas: 
+    "paragrafo circulo";
+    grid-template-columns: 1fr 1fr;
+}
+
+.paragrafo{
+    font-size: 20px;
+    color: #FFEBD2;
+    align-self: center;
+    margin-left: 20px;
+}
+
+.circulo{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: url("o.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
